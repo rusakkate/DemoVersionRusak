@@ -8,7 +8,7 @@ public class Test {
         Random rand = new Random();
         x = rand.nextInt();
         int y;
-        y = x;
+        y = rand.nextInt();
         int z;
         z = x + y;
     }
